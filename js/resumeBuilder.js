@@ -95,7 +95,7 @@ var projects = {
             "dates": "Feb - April 2017",
             "description": "Build an online resume by using HTML5, CSS3, JavaScript and jQuery.",
             "images": ["images/img-p4-760.png"],
-            "url": "https://github.com/ino1sr/udacity-online-resume"
+            "url": "https://ino1sr.github.io/udacity-online-resume/"
         },
         {
             "title": "Udacity Build a Portfolio Site",
