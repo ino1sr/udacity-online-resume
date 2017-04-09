@@ -92,16 +92,16 @@ var projects = {
     "projects": [
         {
             "title": "Udacity Online Resume",
-            "dates": "Feb - Mar 2017",
+            "dates": "Feb - April 2017",
             "description": "Build an online resume by using HTML5, CSS3, JavaScript and jQuery.",
-            "images": ["images/img-p4-380_1x.png"],
-            "url": "https://github.com/ino1sr/frontend-nanodegree-resume"
+            "images": ["images/img-p4-760.png"],
+            "url": "https://github.com/ino1sr/udacity-online-resume"
         },
         {
             "title": "Udacity Build a Portfolio Site",
             "dates": "Dec 2016 - Jan 2017",
             "description": "Develop a responsive website of the portfolio projects.",
-            "images": ["images/img-p3-380_1x.png"],
+            "images": ["images/img-p3-760.png"],
             "url": "https://ino1sr.github.io/udacity-build-a-portfolio-site/"
         }
     ]
@@ -165,7 +165,7 @@ education.display = function() {
         $("#education").append(HTMLschoolStart);
 
         var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[i].name);
-        formattedSchoolName = formattedSchoolName.replace("#", education.schools[i].url)
+        formattedSchoolName = formattedSchoolName.replace("#", education.schools[i].url);
         var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[i].degree);
         var formattedSchoolNameDegree = formattedSchoolName + formattedSchoolDegree;
 

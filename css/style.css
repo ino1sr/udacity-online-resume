@@ -167,6 +167,7 @@ ul {
 
 img {
   padding: 10px;
+  max-width: 100%;
 }
 
 span {
@@ -216,5 +217,11 @@ span {
   #skills-h3,
   .biopic {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .project-img {
+    max-width: 370px;
   }
 }
